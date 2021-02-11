@@ -3,6 +3,7 @@
     <head>
         <meta charset="utf-8">
         <title>Peter's Personal Site</title>
+        <link rel="stylesheet" href="styles.css">
     </head>
     <body>
         <table cellspacing="20">
@@ -17,19 +18,22 @@
 
         <hr>
         <h3>Education</h3>
-        <ul>
-            <li>Lady Bay Primary School</li>
-            <li>Rushcliffe School</li>
+        <div class="education_list">
             <ul>
-                <li>Mathematics</li>
-                <li>Further Mathematics</li>
-                <li>Physics</li>
+                <li>Lady Bay Primary School</li>
+                <li>Rushcliffe School</li>
+                <ul>
+                    <li>Mathematics</li>
+                    <li>Further Mathematics</li>
+                    <li>Physics</li>
+                </ul>
+                <li>University of Bath</li>
+                <ul>
+                    <li>Mathematical Sciences</li>
+                </ul>
             </ul>
-            <li>University of Bath</li>
-            <ul>
-                <li>Mathematical Sciences</li>
-            </ul>
-        </ul>
+        </div>
+
         <h3>Skills</h3>
         <table cellspacing="10">
             <tr>
@@ -46,28 +50,8 @@
             </tr>
         </table>
         <hr>
-        <table border="1">
-            <thead>
-                <tr>
-                    <th>Dates</th>
-                    <th>State</th>
-                </tr>
-            </thead>
-            <tbody>
-                <tr>
-                    <td>2010-2015</td>
-                    <td>Person</td>
-                </tr>
-                <tr>
-                    <td>2016</td>
-                    <td>Person</td>
-                </tr>
-            </tbody>
-            <tfoot>
-
-            </tfoot>
-        </table>
-        <hr>
-        <a href="Top 3 Films.html">Top 3 Films</a>
+        <div class="link">
+            <a href="Top 3 Films.html">Top 3 Films</a>
+        </div>
     </body>
 </html>
