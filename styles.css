@@ -24,6 +24,12 @@ img {
 
 }
 
+.skill-row {
+    width: 50%;
+    margin: 5% auto 5% auto;
+    text-align: left;
+}
+
 .bottom-container {
 
 }
@@ -42,4 +48,6 @@ img {
 .images {
     max-height: 15%;
     max-width: 15%;
+    float: left;
+    margin-right: 3%;
 }
